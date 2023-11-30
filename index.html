@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>NETSAT-CAL</title>
+    <script src="./style/db.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mt-2"><h2>NETSAT_CAL</h2><a href="https://netsat.kku.ac.th/home/" target="_blank">View your score</a></div>
+        <a href="https://www.facebook.com/JTCASISAN/posts/597695675378040/" target="_blank">น้ำหนักคะแนน</a>
+        <div class="content-box">
+            <select id="facultyList" class="form-select mt-3" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+            </select>
+            <div id="cards" class="mt-3"></div>
+            <div class="button-box" id="button_box"></div>
+            <div id="alert_box" class="mt-3"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<script>
+    let facultyList = document.getElementById('facultyList');
+    let cards = document.getElementById('cards')
+    let button_box = document.getElementById('button_box')
+    let alert_box = document.getElementById('alert_box')
+
+    facultyScore.forEach(item =>{
+        let optionNew = document.createElement('option');
+        let textOption = document.createTextNode(item.name)
+
+        optionNew.appendChild(textOption)
+
+        facultyList.appendChild(optionNew)
+    })
+
+    fackArray = []
+
+    facultyList.addEventListener('change', ()=>{
+        let val = facultyList.value;
+        for (let i = 0; i < facultyScore.length; i++) {
+            if (facultyScore[i].name == val) {
+
+                fackArray = []
+
+                let rows = facultyScore[i]
+                cards.innerHTML = ''
+                button_box.innerHTML = ''
+
+                for (let item of rows.Subject) {
+                    const card = `
+                    <div class="mb-3">
+                        <label for=`+item+` class="form-label">`+item+`</label>
+                        <input type="number" class="form-control" id=`+item+` placeholder="Enter your score (`+item+`)">
+                    </div>
+                    `
+                    cards.insertAdjacentHTML('beforeend', card)
+                }
+                const button = `
+                <button class="btn btn-primary" onclick="calculate()">Send</button>
+                `
+                button_box.insertAdjacentHTML('beforeend', button)
+                fackArray.push(rows)
+                return
+
+            }else {
+                cards.innerHTML = ''
+                button_box.innerHTML = ''
+            }
+        }
+    })
+
+    let Score = []
+    let realScore = []
+
+    function calculate() {
+        alert_box.innerHTML = ''
+        Score = []
+        realScore = []
+        //คะแนน * น้ำหนัก / 100 = คะแนนจริง
+        let item = fackArray[0]
+        for (let rows of item.Subject){
+            let x = document.getElementById(rows).value
+            Score.push(x)
+        }
+        for (i=0;i<item.wigth.length;i++){
+            let a = item.wigth[i]
+            let b = Score[i]
+            z = (b * a) / 100
+            realScore.push(z)
+        }
+        const sum = realScore.reduce((accumulator, currentValue) => {
+        return accumulator + currentValue;
+        }, 0);
+
+        const alertCon = `
+        <div class="alert alert-success" role="alert">
+            You score is `+sum+`
+        </div>
+        `
+        alert_box.insertAdjacentHTML("beforeend", alertCon)
+    }
+
+</script>
