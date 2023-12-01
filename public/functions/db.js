@@ -4,42 +4,42 @@ let facultyScore = [
         Field_of_study: [
             {
                 name: 'ชีววิทยา',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [10, 15, 15, 15, 10, 15, 20],
             },
             {
                 name: 'เคมี',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [10, 10, 15, 20, 10, 25, 10],
             },
             {
                 name: 'ฟิสิกส์',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [10, 10, 15, 20, 20, 15, 10],
             },
             {
                 name: 'คณิตศาสตร์',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [10, 15, 35, 10, 10, 10, 10],
             },
             {
                 name: 'สถิติและวิทยาการข้อมูล_สาขาวิชาเอกสถิติศาสตร์',
-                Subject: ['Thai','English','Math','TScience_and_technologye'],
+                Subject: ['Thai','English','Math','Science_and_technologye'],
                 wigth: [10, 10, 40, 40],
             },
             {
                 name: 'สถิติและวิทยาการข้อมูล_วิชาเอกสารสนเทศ_สถิติและวิทยาการข้อมูล',
-                Subject: ['Thai','English','Math','TScience_and_technologye'],
+                Subject: ['Thai','English','Math','Science_and_technologye'],
                 wigth: [10, 10, 40, 40],
             },
             {
                 name: 'ชีวะเคมี',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [10, 15, 10, 15, 10, 20, 20],
             },
             {
                 name: 'จุลชีววิทยา',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [
                     10, //ไทย 
                     15, //อังกฤษ
@@ -52,7 +52,7 @@ let facultyScore = [
             },
             {
                 name: 'วิทยาศาสตร์_สิ่งแวดล้อม',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [
                     10, //ไทย 
                     15, //อังกฤษ
@@ -65,7 +65,7 @@ let facultyScore = [
             },
             {
                 name: 'วัสดุศาสตร์และนาโนเทคโนโลยี',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [
                     10, //ไทย 
                     10, //อังกฤษ
@@ -78,7 +78,7 @@ let facultyScore = [
             },
             {
                 name: 'คณิตศาสตร์_(สค.วค.)',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [
                     10, //ไทย 
                     15, //อังกฤษ
@@ -91,7 +91,7 @@ let facultyScore = [
             },
             {
                 name: 'ชีววิทยา_(สค.วค.)',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [
                     10, //ไทย 
                     15, //อังกฤษ
@@ -104,7 +104,7 @@ let facultyScore = [
             },
             {
                 name: 'ฟิสิกส์_(สค.วค.)',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [
                     10, //ไทย 
                     10, //อังกฤษ
@@ -117,7 +117,7 @@ let facultyScore = [
             },
             {
                 name: 'วิทยาศาสตร์แบตเตอรี่และพลังงานใหม่',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [
                     10, //ไทย 
                     10, //อังกฤษ
@@ -135,7 +135,7 @@ let facultyScore = [
         Field_of_study: [
             {
                 name: 'เกษตรศาสตร์_วิชาเอกพืชไร่',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [
                     10, //ไทย 
                     15, //อังกฤษ
@@ -148,7 +148,7 @@ let facultyScore = [
             },
             {
                 name: 'การประมง',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [
                     10, //ไทย 
                     15, //อังกฤษ
@@ -161,7 +161,7 @@ let facultyScore = [
             },
             {
                 name: 'เกษตรศาสตร์วิชาเอกโรคพืชวิทยา',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [
                     10, //ไทย 
                     15, //อังกฤษ
@@ -174,7 +174,7 @@ let facultyScore = [
             },
             {
                 name: 'เกษตรศาสตร์วิชาเอกพืชสวน',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [
                     10, //ไทย 
                     15, //อังกฤษ
@@ -187,7 +187,7 @@ let facultyScore = [
             },
             {
                 name: 'เศรษฐศาสตร์เกษตรและธุรกิจเกษตร',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [
                     10, //ไทย 
                     15, //อังกฤษ
@@ -200,7 +200,7 @@ let facultyScore = [
             },
             {
                 name: 'เกษตรศาสตร์วิชาเอกกีฎวิทยา',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [
                     10, //ไทย 
                     15, //อังกฤษ
@@ -213,7 +213,7 @@ let facultyScore = [
             },
             {
                 name: 'เกษตรศาสตร์วิชาเอกการส่งเสริมและพัฒนาการเกษตร',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [
                     10, //ไทย 
                     15, //อังกฤษ
@@ -226,7 +226,7 @@ let facultyScore = [
             },
             {
                 name: 'เกษตรนวัตกรรม',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [
                     15, //ไทย 
                     15, //อังกฤษ
@@ -239,7 +239,7 @@ let facultyScore = [
             },
             {
                 name: 'เกษตรศาสตร์วิชาเอกปฐพีศาสตร์และสิ่งแวดล้อม',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [
                     10, //ไทย 
                     15, //อังกฤษ
@@ -252,7 +252,7 @@ let facultyScore = [
             },
             {
                 name: 'สัตวศาสตร์',
-                Subject: ['Thai','English','Math','TScience_and_technologye','Physic', 'Chemical', 'Biology'],
+                Subject: ['Thai','English','Math','Science_and_technologye','Physic', 'Chemical', 'Biology'],
                 wigth: [
                     10, //ไทย 
                     15, //อังกฤษ
@@ -365,7 +365,7 @@ let facultyScore = [
             },
             {
                 name: 'วิศวกรรมระบบอัตโนมัติหุ่นยนต์_และ_ปัญญาประดิษฐ์',
-                Subject: ['Thai', 'English','Math','TScience_and_technologye','Physic','ความถนัดทางวิศวะ'],
+                Subject: ['Thai', 'English','Math','Science_and_technologye','Physic','ความถนัดทางวิศวะ'],
                 wigth: [
                     10, //ไทย
                     10, //อังกฤษ
@@ -397,7 +397,7 @@ let facultyScore = [
             },
             {
                 name: 'วิศวกรรมกระบวนการเคมี_หลักสูตรนานาชาติ',
-                Subject: ['English','Math','TScience_and_technologye','Physic','Chemical','ความถนัดทางวิศวะ'],
+                Subject: ['English','Math','Science_and_technologye','Physic','Chemical','ความถนัดทางวิศวะ'],
                 wigth: [
                     16, //อังกฤษ
                     16, //คณิต
@@ -419,4 +419,176 @@ let facultyScore = [
             },
         ]
     },
+    {
+        faculty: 'คณะศึกษาศาสตร์',
+        Field_of_study: [
+            {
+                name: 'ศึกษาศาสตร์บัณฑิตวิชาเอก_ศาสตรศึกษา',
+                Subject: [
+                    'Thai','English',
+                    'Math','Science_and_technologye',
+                    ],
+                wigth: [
+                    20, //ไทย 
+                    20, //อังกฤษ
+                    40, //คณิต
+                    20, //วิทเทค
+                ],
+            },
+            {
+                name: 'ศึกษาศาสตรบัณฑิตวิชาเอก_วิทยาศาสตร์ศึกษา',
+                Subject: [
+                    'Thai','English',
+                    'Math','Science_and_technologye',
+                    'Physic','Chemical',
+                    'Biology',
+                ],
+                wigth: [
+                    15, //ไทย 
+                    30, //อังกฤษ
+                    15, //คณิต
+                    19, //วิทเทค
+                    7, //ฟิสิกส์
+                    7, //เคมี
+                    7 //ชีวะ
+                ],
+            },
+            {
+                name: 'ศึกษาศาสตรบัณฑิตวิชาเอก_การสอนภาษาไทย',
+                Subject: [
+                    'Thai','English',
+                    'Math',
+                ],
+                wigth: [
+                    65, //ไทย 
+                    30, //อังกฤษ
+                    5, //คณิต
+                ],
+            },
+            {
+                name: 'ศึกษาศาสตรบัณฑิตวิชาเอก_ศิลปศึกษา',
+                Subject: [
+                    'Thai','English',
+                    'Math','ความถนัดทางศิลป์'
+                ],
+                wigth: [
+                    30, //ไทย 
+                    20, //อังกฤษ
+                    10, //คณิต
+                    40, //ความถนัดทางศิลป์
+                ],
+            },
+            {
+                name: 'ศึกษาศาสตรบัณฑิตวิชาเอก_พลศึกษา',
+                Subject: [
+                    'Thai','English',
+                    'Math','Science_and_technologye',
+                    'สรรมถนะทางกาย'
+                ],
+                wigth: [
+                    15, //ไทย 
+                    30, //อังกฤษ
+                    15, //คณิต
+                    20, //วิทเทค
+                    20, //สรรมถนะทางกาย
+                ],
+            },
+            {
+                name: 'ศึกษาศาสตรบัณฑิตวิชาเอก_คอมพิวเตอร์ศึกษา',
+                Subject: [
+                    'Thai','English',
+                    'Math','Science_and_technologye',
+                ],
+                wigth: [
+                    20, //ไทย 
+                    25, //อังกฤษ
+                    25, //คณิต
+                    30, //วิทเทค
+                ],
+            },
+            {
+                name: 'ศึกษาศาสตรบัณฑิตวิชาเอก_การสอนภาษาญี่ปุ่น',
+                Subject: [
+                    'Thai','English',
+                    'Math','ญี่ปุ่น',
+                ],
+                wigth: [
+                    20, //ไทย 
+                    20, //อังกฤษ
+                    20, //คณิต
+                    40, //ญี่ปุ่น
+                ],
+            },
+            {
+                name: 'ศึกษาศาสตรบัณฑิตวิชาเอก_สังคมศึกษา',
+                Subject: [
+                    'Thai','English',
+                    'Math','Science_and_technologye',
+                ],
+                wigth: [
+                    20, //ไทย 
+                    35, //อังกฤษ
+                    15, //คณิต
+                    30, //วิทเทค
+                ],
+            },
+            {
+                name: 'ศึกษาศาสตรบัณฑิตวิชาเอก_ดนตรีศึกษา',
+                Subject: [
+                    'Thai','English',
+                    'Math','ดนตรี',
+                ],
+                wigth: [
+                    20, //ไทย 
+                    20, //อังกฤษ
+                    10, //คณิต
+                    50, //ดนตรี
+                ],
+            },
+            {
+                name: 'การสอนภาษาอังกฤษให้ผู้มีพื้นฐานภาษาอื่นนอกจากภาษาอังกฤษ(หลักสูตรนานาชาติ)',
+                Subject: [
+                    'Thai','English',
+                ],
+                wigth: [
+                    10, //ไทย 
+                    90, //อังกฤษ
+                ],
+            },
+            {
+                name: 'ศึกษาศาสตรบัณฑิตวิชาเอก_เดี่ยวการประถมศึกษา',
+                Subject: [
+                    'Thai','English',
+                    'Math','Science_and_technologye',
+                ],
+                wigth: [
+                    25, //ไทย 
+                    25, //อังกฤษ
+                    25, //คณิต
+                    25, //วิทเทค
+                ],
+            },
+        ]
+    },
+    {
+        faculty: 'คณะพยาบาลศาสตร์',
+        Field_of_study: [
+            {
+                name: 'พยาบาลศาสตรบัณฑิต',
+                Subject: [
+                    'Thai','English',
+                    'Math','Physic',
+                    'Chemical','Biology'
+                ],
+                wigth: [
+                    10, //ไทย 
+                    20, //อังกฤษ
+                    20, //คณิต
+                    15, //ฟิสิกส์
+                    15, //เคมี
+                    20 //ชีวะ
+                ],
+            },
+        ]
+    }
 ]
