@@ -9,6 +9,7 @@ facultyList.addEventListener('change', ()=>{
     fackArray = []
     Field_of_study_S.innerHTML = ''
     Field_of_study_list = ''
+    alert_box.innerHTML = ''
 
     //for เพื่อหาค่าfacultyScore
     for (let i = 0; i < facultyScore.length; i++) {
@@ -47,6 +48,7 @@ facultyList.addEventListener('change', ()=>{
                         let rows = Field_of_study_list[i]
                         cards.innerHTML = ''
                         button_box.innerHTML = ''
+                        alert_box.innerHTML = ''
                         
                         //แสดงแบบฟรอมในการกรอกคะแนน
                         for (let item of rows.Subject) {
