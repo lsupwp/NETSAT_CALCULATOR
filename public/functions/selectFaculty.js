@@ -37,6 +37,7 @@ facultyList.addEventListener('change', ()=>{
 
                 //รับค่าของ สาขาวิชา
                 let val = Field_of_study_S.value;
+                alert_box.innerHTML = ''
 
                 for (let i = 0; i < Field_of_study_list.length; i++) {
 
@@ -48,7 +49,6 @@ facultyList.addEventListener('change', ()=>{
                         let rows = Field_of_study_list[i]
                         cards.innerHTML = ''
                         button_box.innerHTML = ''
-                        alert_box.innerHTML = ''
                         
                         //แสดงแบบฟรอมในการกรอกคะแนน
                         for (let item of rows.Subject) {
