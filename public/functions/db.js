@@ -270,151 +270,151 @@ let facultyScore = [
         Field_of_study: [
             {
                 name: 'วิศวกรรมโยธา',
-                Subject: ['English','Math','Physic', 'ความถนัดทางวิศวะ'],
+                Subject: ['English','Math','Physic', 'Pat3'],
                 wigth: [
                     10, //อังกฤษ
                     35, //คณิต
                     35, //ฟิสิกส์
-                    20 // ความถนัดทางวิศวะ
+                    20 // Pat3
                 ],
             },
             {
                 name: 'วิศวกรรมไฟฟ้า',
-                Subject: ['English','Math','Physic', 'ความถนัดทางวิศวะ'],
+                Subject: ['English','Math','Physic', 'Pat3'],
                 wigth: [
                     20, //อังกฤษ
                     30, //คณิต
                     30, //ฟิสิกส์
-                    20 // ความถนัดทางวิศวะ
+                    20 // Pat3
                 ],
             },
             {
                 name: 'วิศวกรรมเกษตร',
-                Subject: ['English','Math','Physic', 'ความถนัดทางวิศวะ'],
+                Subject: ['English','Math','Physic', 'Pat3'],
                 wigth: [
                     20, //อังกฤษ
                     30, //คณิต
                     30, //ฟิสิกส์
-                    20 // ความถนัดทางวิศวะ
+                    20 // Pat3
                 ],
             },
             {
                 name: 'วิศวกรรมอุตสาหการ',
-                Subject: ['English','Math','Physic', 'ความถนัดทางวิศวะ'],
+                Subject: ['English','Math','Physic', 'Pat3'],
                 wigth: [
                     25, //อังกฤษ
                     25, //คณิต
                     25, //ฟิสิกส์
-                    25 // ความถนัดทางวิศวะ
+                    25 // Pat3
                 ],
             },
             {
                 name: 'วิศวกรรมเครื่องกล',
-                Subject: ['English','Math','Physic', 'Chemical', 'ความถนัดทางวิศวะ'],
+                Subject: ['English','Math','Physic', 'Chemical', 'Pat3'],
                 wigth: [
                     10, //อังกฤษ
                     25, //คณิต
                     25, //ฟิสิกส์
                     10, //เคมี
-                    30 // ความถนัดทางวิศวะ
+                    30 // Pat3
                 ],
             },
             {
                 name: 'วิศวกรรมสิ่งแวดล้อม',
-                Subject: ['English','Math','Physic', 'Chemical', 'ความถนัดทางวิศวะ'],
+                Subject: ['English','Math','Physic', 'Chemical', 'Pat3'],
                 wigth: [
                     15, //อังกฤษ
                     25, //คณิต
                     25, //ฟิสิกส์
                     15, //เคมี
-                    20 // ความถนัดทางวิศวะ
+                    20 // Pat3
                 ],
             },
             {
                 name: 'วิศวกรรมเคมี',
-                Subject: ['Thai', 'English','Math','Physic', 'Chemical', 'ความถนัดทางวิศวะ'],
+                Subject: ['Thai', 'English','Math','Physic', 'Chemical', 'Pat3'],
                 wigth: [
                     5, //ไทย
                     10, //อังกฤษ
                     25, //คณิต
                     25, //ฟิสิกส์
                     15, //เคมี
-                    20 // ความถนัดทางวิศวะ
+                    20 // Pat3
                 ],
             },
             {
                 name: 'วิศวกรรมคอมพิวเตอร์',
-                Subject: ['English','Math','Physic','ความถนัดทางวิศวะ'],
+                Subject: ['English','Math','Physic','Pat3'],
                 wigth: [
                     20, //อังกฤษ
                     30, //คณิต
                     20, //ฟิสิกส์
-                    30 // ความถนัดทางวิศวะ
+                    30 // Pat3
                 ],
             },
             {
                 name: 'วิศวกรรมระบบอิเล็กทรอนิกส์',
-                Subject: ['Thai', 'English','Math','Physic','ความถนัดทางวิศวะ'],
+                Subject: ['Thai', 'English','Math','Physic','Pat3'],
                 wigth: [
                     10, //ไทย
                     10, //อังกฤษ
                     30, //คณิต
                     30, //ฟิสิกส์
-                    20 // ความถนัดทางวิศวะ
+                    20 // Pat3
                 ],
             },
             {
                 name: 'วิศวกรรมระบบอัตโนมัติหุ่นยนต์_และ_ปัญญาประดิษฐ์',
-                Subject: ['Thai', 'English','Math','Science_and_technologye','Physic','ความถนัดทางวิศวะ'],
+                Subject: ['Thai', 'English','Math','Science_and_technologye','Physic','Pat3'],
                 wigth: [
                     10, //ไทย
                     10, //อังกฤษ
                     20, //คณิต
                     20, //วิทเทค
                     20, //ฟิสิกส์
-                    20 // ความถนัดทางวิศวะ
+                    20 // Pat3
                 ],
             },
             {
                 name: 'วิศวกรรมโทรคมนาคม_หลักสูตรนานาชาติ',
-                Subject: ['English','Math','Physic','ความถนัดทางวิศวะ'],
+                Subject: ['English','Math','Physic','Pat3'],
                 wigth: [
                     30, //อังกฤษ
                     30, //คณิต
                     30, //ฟิสิกส์
-                    10 // ความถนัดทางวิศวะ
+                    10 // Pat3
                 ],
             },
             {
                 name: 'วิศวกรรมโลจิสติกส์_หลักสูตรนานาชาติ',
-                Subject: ['English','Math','Physic','ความถนัดทางวิศวะ'],
+                Subject: ['English','Math','Physic','Pat3'],
                 wigth: [
                     30, //อังกฤษ
                     30, //คณิต
                     20, //ฟิสิกส์
-                    20 // ความถนัดทางวิศวะ
+                    20 // Pat3
                 ],
             },
             {
                 name: 'วิศวกรรมกระบวนการเคมี_หลักสูตรนานาชาติ',
-                Subject: ['English','Math','Science_and_technologye','Physic','Chemical','ความถนัดทางวิศวะ'],
+                Subject: ['English','Math','Science_and_technologye','Physic','Chemical','Pat3'],
                 wigth: [
                     16, //อังกฤษ
                     16, //คณิต
                     16, //วิทเทค
                     16, //ฟิสิกส์
                     16, //เคมี
-                    20 // ความถนัดทางวิศวะ
+                    20 // Pat3
                 ],
             },
             {
                 name: 'วิศวกรรมสื่อดิจิทัล_หลักสูตรนานาชาติ',
-                Subject: ['English','Math','Physic','ความถนัดทางวิศวะ'],
+                Subject: ['English','Math','Physic','Pat3'],
                 wigth: [
                     30, //อังกฤษ
                     30, //คณิต
                     30, //ฟิสิกส์
-                    10 // ความถนัดทางวิศวะ
+                    10 // Pat3
                 ],
             },
         ]
